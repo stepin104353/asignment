@@ -1,16 +1,9 @@
-SRC = unity/unity.c\
-src/Prime.c\
-test/test_prime.c\
-main.c
+SRC = assignment.c
 
-INC = -Iunity\
--Iinc\
--Itest
-
-PROJECT_NAME = Prime.out
+PROJECT_NAME = Assignment.out
 
 $(PROJECT_NAME): $(SRC)
-	gcc $(SRC) $(INC) -o $(PROJECT_NAME)
+	gcc $(SRC) -o $(PROJECT_NAME)
 
 run:$(PROJECT_NAME)
 	./${PROJECT_NAME}
