@@ -103,6 +103,7 @@ void calculator_operations()
     printf("Enter / symbol for Division \n");
     printf("Enter ? symbol for Modulus\n");
     printf("Enter ^ symbol for Power \n");
+    printf("Enter $ symbol for Squareroot\n");
     printf("Enter ! symbol for Factorial \n\n");
 }
 
